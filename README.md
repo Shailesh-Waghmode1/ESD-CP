@@ -1,16 +1,69 @@
-# esd5
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 How It Works
 
-This project is a starting point for a Flutter application.
+### 👤 Student Authentication
+- Student scans RFID card
+- Student details fetched from Firebase
+- Access granted if valid
 
-A few resources to get you started if this is your first Flutter project:
+### 📘 Book Issuance
+- Scan book RFID tag
+- If available, book is issued and Firebase is updated
+- Issue date and book details shown in mobile app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📙 Book Return & Fine
+- Scan book tag
+- Fine calculated based on due date
+- Status updated in real time
+- Fine shown in app, payment possible
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Mobile App Screens (Flutter)
+
+- **Login / Sign-Up**
+- **Profile Dashboard**
+- **Issued Books List**
+- **Search Book by Title/Author**
+- **Pay Fine**
+- **Borrowing History**
+- **Forgot Password**
+
+---
+
+## 📈 Future Enhancements
+
+- 🤖 AI-based book recommendations
+- 📚 Digital resource integration (e-books, journals)
+- 🤝 RFID integration with campus services (payments, entry)
+- 🎯 Gamification for reading goals
+- 🛰️ Advanced book location tracking within library
+
+---
+
+## 👨‍💻 Authors
+
+- Ashvini Barbadekar (Mentor) – ashwini.barbadekar@vit.edu  
+- Priyanshu Dambhare – priyanshu.dambhare23@vit.edu  
+- Aditya Walsepatil – aditya.walsepatilpatil22@vit.edu  
+- **Shailesh Waghmode** – shailesh.waghmode22@vit.edu  
+- Yash Telkhade – yash.telkhade22@vit.edu  
+
+---
+
+## 📃 References
+
+See detailed references in the [project report](./ESD_CP_Report_modified.pdf) including IEEE papers related to RFID, IoT, and library automation.
+
+---
+
+## 📸 Screenshots
+
+> *(Optional: Add screenshots from your mobile app UI if available for GitHub viewers.)*
+
+---
+
+## 📂 Project Structure
+
